@@ -37,6 +37,11 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <23 24 25>;
         };
+
+        spotlight-prefix {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <41 42 43>;
+        };
     };
 
     macros {
