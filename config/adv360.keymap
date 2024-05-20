@@ -34,13 +34,8 @@
         compatible = "zmk,combos";
 
         tmux-prefix {
-            bindings = <&kp LC(SPACE)>;
+            bindings = <&kp LC(B)>;
             key-positions = <23 24 25>;
-        };
-
-        spotlight-prefix {
-            bindings = <&kp LG(SPACE)>;
-            key-positions = <41 42 43>;
         };
     };
 
