@@ -34,7 +34,7 @@
         compatible = "zmk,combos";
 
         tmux-prefix {
-            bindings = <&kp LC(B)>;
+            bindings = <&kp LC(SPACE)>;
             key-positions = <23 24 25>;
         };
     };
