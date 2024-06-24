@@ -37,6 +37,16 @@
             bindings = <&kp LC(SPACE)>;
             key-positions = <23 24 25>;
         };
+
+        amethyst-mod1 {
+            bindings = <&kp LA(LSHIFT)>;
+            key-positions = <16 17>;
+        };
+
+        amethyst-mod2 {
+            bindings = <&kp LC(LA(LEFT_SHIFT))>;
+            key-positions = <16 17 18>;
+        };
     };
 
     macros {
