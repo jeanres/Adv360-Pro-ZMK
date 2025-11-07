@@ -21,6 +21,15 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tmux-prefix {
+            bindings = <&kp RC(B)>;
+            key-positions = <23 24 25>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
