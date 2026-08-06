@@ -28,20 +28,6 @@
             bindings = <&kp RC(B)>;
             key-positions = <23 24 25>;
         };
-
-        auth-combo {
-            bindings = <&auth_macro>;
-            key-positions = <29 30 31>;
-        };
-    };
-
-    macros {
-        auth_macro: auth_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Z &kp X>;
-            label = "AUTH_MACRO";
-        };
     };
 
     keymap {
